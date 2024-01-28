@@ -30,7 +30,7 @@ const CardContainer: React.FC<PropsType> = ({
           <Link
             href={appLinks.allCards}
             target="_blank"
-            className="text-sm px-3 py-1 rounded-full bg-[#ccc] flex gap-1 items-center"
+            className="text-sm px-3 py-1 rounded-full bg-[#dfdfdf] flex gap-1 items-center"
           >
             All
             <LiaGreaterThanSolid />
