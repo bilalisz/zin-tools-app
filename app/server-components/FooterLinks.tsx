@@ -10,9 +10,9 @@ type PropsType = {
 
 const FooterLinks: React.FC<PropsType> = ({ heading, linkCollection }) => {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-6">
       <TypographyLarge>{heading}</TypographyLarge>
-      <ul className="flex flex-col gap-2">
+      <ul className="flex flex-col gap-4">
         {linkCollection?.map((link) => (
           <li key={link.id}>
             <Link href={link.url}>

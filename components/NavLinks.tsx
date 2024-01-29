@@ -10,7 +10,7 @@ const NavLinks = () => {
     <nav className="px-3 mt-4">
       <ul className="flex justify-center gap-10">
         {links.map((link: any) => (
-          <li key={link.id} className="text-sm">
+          <li key={link.id} className="text-[12px] font-[500]">
             <Link href={appLinks.navLinkGT} target="_blank">
               {" "}
               {link.label}

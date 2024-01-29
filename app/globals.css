@@ -86,11 +86,13 @@
   @apply flex justify-between items-center  py-2
 }
 .search-cnt{
-  @apply bg-[#f7f7f7] border rounded-full px-3 py-1 flex items-center
+  @apply bg-gray95  rounded-full px-3 py-1 flex items-center
 }
 .search-input{
-  @apply h-8 w-96 border-none bg-[#f7f7f7] focus-visible:ring-0
+  @apply h-8 w-96 border-none bg-gray95 outline-none text-sm p-2 
 }
+
+
 .action-cnt{
   @apply flex items-center justify-end gap-3 text-sm
 }
@@ -106,7 +108,7 @@
 }
 
 .my-footer{
-  @apply w-full bg-slate-100 py-10
+  @apply w-full bg-[#F2F4F5] py-10 mt-32
 }
 .moon-icon{
   @apply flex justify-center items-center rounded-full bg-[#dad9d9] p-3 cursor-pointer

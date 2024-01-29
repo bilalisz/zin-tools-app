@@ -30,7 +30,7 @@ const bookmarks:CardType[]=[
 const convertToPDF:CardType[]=[
     {id:1,icon:"word-pdf",title:"Word to PDF",description:"The best word to PDF converter online."},
     {id:2,icon:"PPT-PDF",title:"PPT to PDF",description:"Convert Powerpoint to PDF online."},
-    {id:3,icon:"Excel-PDF",title:"Excel to PDF",description:"Easily convert Excel spreasheet to PDF."},
+    {id:3,icon:"Excel-PDF",title:"Excel to PDF",description:"Easily convert Excel spreadsheet to PDF."},
     {id:4,icon:"jpg-pdf",title:"JPG to PDF",description:"Convert JPG, PNG, BMP, GIF and TIFF Images to PDF"},
     {id:5,icon:"Image-in-TXT",title:"TXT to PDF",description:"Convert TXT to PDF online for free."},
     // {id:6,icon:"Image-in-TXT",title:"TXT to PDF",description:"Convert TXT to PDF online for free."},
@@ -44,6 +44,7 @@ const converFromPDF:CardType[]=[
     {id:3,icon:"pdf-excel",title:"PDF to Excel",description:"Convert PDF to Excel for free by online tool."},
     {id:4,icon:"PDF-JPG",title:"PDF to JPG",description:"Convert PDF file to a set of optimized JPG, PNG, BM..."},
     {id:5,icon:"PDF-TXT",title:"PDF to TXT",description:"Convert PDF to TXT and extract text from your PDF."},
+    {id:6,icon:"PDF-TXT",title:"PDF to TXT",description:"Convert PDF to TXT and extract text from your PDF."},
 ]
 
 type Typed="bookmarks"|"convToPDF"|"convFromPDF"

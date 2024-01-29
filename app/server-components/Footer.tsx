@@ -10,7 +10,7 @@ const Footer = () => {
   const footerLinks = getFooterLinks();
   const generalLinks = getGeneralLinks();
   return (
-    <footer className="my-footer mt-32">
+    <footer className="my-footer">
       <SocialMedia />
       <hr className="m-6" />
       <div className="py-5 px-10 flex gap-20">

@@ -9,7 +9,7 @@ const MainContainer = () => {
   const convertToPDF: CardType[] = getCardData("convToPDF");
 
   return (
-    <main className="w-full  px-32 py-6 flex flex-col gap-10">
+    <main className="w-full px-32 py-6 flex flex-col gap-10">
       <CardContainer heading="Your Bookmarks" cardData={bookmarkData} />
       <CardContainer
         heading="Convert From PDF"

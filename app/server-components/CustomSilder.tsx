@@ -23,15 +23,15 @@ const CustomSilder: React.FC<PropsType> = ({ cardData }) => {
     >
       <CarouselContent className="flex gap-5">
         {cardData.map((card) => (
-          <CarouselItem key={card.id} className="basis-52 pr-5">
-            <div className="p-1">
+          <CarouselItem key={card.id} className="basis-[197px] pr-5">
+            <div className="py-1">
               <CustomCard cardData={card} hovered={true} />
             </div>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="-left-[1rem]" />
+      <CarouselNext className="-right-[1rem]" />
     </Carousel>
   );
 };

@@ -25,7 +25,7 @@ const CustomCard: React.FC<PropsType> = ({ cardData, hovered = false }) => {
         alt={`image-${icon}`}
       />
       <CardTitle className="text-[16px]">{title}</CardTitle>
-      <CardDescription className="text-[10px] text-left text-muted-foreground">
+      <CardDescription className="text-[10px] text-left text-muted-foreground text-[#acabab]">
         {description}
       </CardDescription>
       {hovered && show ? (

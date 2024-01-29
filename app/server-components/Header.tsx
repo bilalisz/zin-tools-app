@@ -3,23 +3,23 @@ import Link from "next/link";
 import NavLinks from "@/components/NavLinks";
 import { Input } from "@/components/ui/input";
 import { appLinks } from "@/constants/links";
-import { FaSearch } from "react-icons/fa";
+import { IoMdSearch } from "react-icons/io";
 
 const Header = () => {
   return (
     <header>
       <div className="header-cnt">
-        <Link className="logo-cnt" href={appLinks.rootLink}>
+        <Link className="logo-cnt" href={appLinks.rootLink} target="_blank">
           <img src="/icons/logo.png" alt="logo" className="w-10 h-10" />
           <h1>ZinTools</h1>
         </Link>
         <div className="search-cnt ">
-          <Input
+          <input
             className="search-input"
             placeholder="Search for Movies, TV Shows, Themes & Cast"
           />
           <button>
-            <FaSearch className="w-5 h-5 mx-2 border-l-2 pl-2" />
+            <IoMdSearch className="w-7 h-7 mx-2 border-l-2 pl-2" />
           </button>
         </div>
         <div className="action-cnt ">
