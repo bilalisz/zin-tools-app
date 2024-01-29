@@ -7,8 +7,8 @@ import { IoMdSearch } from "react-icons/io";
 
 const Header = () => {
   return (
-    <header>
-      <div className="header-cnt">
+    <header className="shadow-md pb-3 mb-5">
+      <div className="header-cnt px-2">
         <Link className="logo-cnt" href={appLinks.rootLink} target="_blank">
           <img src="/icons/logo.png" alt="logo" className="w-10 h-10" />
           <h1>ZinTools</h1>
