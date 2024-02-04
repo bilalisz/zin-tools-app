@@ -19,7 +19,7 @@ const Footer = () => {
           linkCollection={footerLinks.internal}
         />
         <FooterLinks
-          heading="Internal Links"
+          heading="Enterprise"
           linkCollection={footerLinks.enterprise}
         />
         <FooterLinks
@@ -27,8 +27,12 @@ const Footer = () => {
           linkCollection={footerLinks.internal}
         />
         <FooterLinks
-          heading="Internal Links"
+          heading="Enterprise"
           linkCollection={footerLinks.enterprise}
+        />
+        <FooterLinks
+          heading="Internal Links"
+          linkCollection={footerLinks.internal}
         />
       </div>
       <hr className="m-6" />

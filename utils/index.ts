@@ -40,7 +40,7 @@ const convertToPDF:CardType[]=[
 ]
 const converFromPDF:CardType[]=[
     {id:1,icon:"pdf-word",title:"PDF to Word",description:"Easily convert PDF to word document."},
-    {id:2,icon:"PDF-PPT",title:"PDF to PPT",description:"Convert PDF  Powerpoint online."},
+    {id:2,icon:"PDF-PPT",title:"PDF to PPT",description:"Convert PDF  Powerpoint for free by online tool."},
     {id:3,icon:"pdf-excel",title:"PDF to Excel",description:"Convert PDF to Excel for free by online tool."},
     {id:4,icon:"PDF-JPG",title:"PDF to JPG",description:"Convert PDF file to a set of optimized JPG, PNG, BM..."},
     {id:5,icon:"PDF-TXT",title:"PDF to TXT",description:"Convert PDF to TXT and extract text from your PDF."},
