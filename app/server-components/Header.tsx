@@ -7,7 +7,7 @@ import { IoMdSearch } from "react-icons/io";
 
 const Header = () => {
   return (
-    <header className="shadow-md pb-3 mb-5">
+    <header className="shadow-md pb-3 mb-5  sticky top-0 z-10 bg-white">
       <div className="header-cnt px-2">
         <Link className="logo-cnt" href={appLinks.rootLink} target="_blank">
           <img src="/icons/logo.png" alt="logo" className="w-10 h-10" />
